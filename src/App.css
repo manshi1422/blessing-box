@@ -39,6 +39,10 @@
 .app-bar{
   background-color: #ff9c63 !important;
 }
+.button{
+  background-color: #d64e00d9 !important;
+
+}
 .lottie{
   width: 200px;
   height: 200px;
@@ -72,9 +76,11 @@
   justify-content: center;
   color: white; /* Text color */
   font-size: 24px; /* Adjust as needed */
- 
-}
 
+}
+.list-grid{
+  padding: 0px !important;
+ }
 .welcome-grid::before {
   content: '';
     position: absolute;
@@ -87,4 +93,13 @@
     /* background-position: center; */
     filter: blur(2px);
     z-index: -1;
+}
+.avatar{
+  display: flex;
+}
+.navlink{
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
 }
